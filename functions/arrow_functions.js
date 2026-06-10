@@ -6,16 +6,10 @@ function greetings(name) {
 greetings("Mellissah");
 
 
-
-
-//anonymous function
-let greetings = function(name) {
-	console.log("Hello , + name "!");
+const calculateArea = (length, width) => {
+	const area = length * width;
+	return `The area of the rectangle is ${area} square units`;
 };
 
-//arrow function
-let greetings = (name) => {
-	console.log("Hello," + name + "!")
-};
+console.log(calculateArea(5, 10));
 
-greetings("Hudson");
