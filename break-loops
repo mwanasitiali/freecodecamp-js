@@ -1,0 +1,9 @@
+const register = ["Alice", null, "Brian", null, "Joy"];
+for (const name of register) {
+      if (name === null) {
+               continue;
+               }  console.log(`Present: ${name}`);
+}
+
+
+

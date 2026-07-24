@@ -1,0 +1,13 @@
+//let myArray = [];
+
+for (let i = 1; i <= 10; i++) {
+    myArray.push(i);
+}
+
+console.log(myArray)
+;
+
+
+const scores  (45, 84, 70, 50, 95);
+
+for(let i =0; i =
