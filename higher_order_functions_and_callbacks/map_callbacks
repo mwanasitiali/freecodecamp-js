@@ -1,0 +1,31 @@
+// Before using map (using a for loop)
+
+const numbers = [1, 2, 3, 4, 5, 6];
+const doubled = [];
+
+for (let i = 0; i < numbers.length; i++) {
+         doubled.push(numbers[i] * 2)
+}
+
+console.log(doubled);
+
+
+// Map () = take an array - change each item  - return a new aray
+// Map () = with a regular fuction
+
+const numbes = [1, 2, 3,  4, 5];
+
+const doubled = numbes.map(function (num)) {
+      return num *2 ;
+}
+
+console.log(doubled);
+
+
+// Map using arrow function 
+
+const numberz  = [1, 2, 3, 4, 5];
+
+const doubled = numberz.map(num => num *2);
+console.log(doubled);
+

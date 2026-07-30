@@ -1,0 +1,9 @@
+const books = [
+ { title: 'A', pages: 210 },
+ { title: 'B', pages: 340 },
+ { title: 'C', pages: 480 }
+];
+
+
+const bookz = books.filter(book => book.pages > 300 );
+console.log(bookz);
